@@ -51,6 +51,32 @@ body {
   color: var(--primary);
 }
 
+.navBar .navBarNav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navBar .navBarNav a:hover::after {
+  transform: scaleX(0.5);
+}
+
+.navBar .navBarExtra a {
+  color: #f2e9e4;
+  margin: 0 0.5rem;
+}
+
+.navBar .navBarExtra a:hover {
+  color: var(--primary);
+}
+
+#hamburgerMenu {
+  display: none;
+}
+
 /* .header {
   font-family: "Outfit", sans-serif;
   position: absolute;
