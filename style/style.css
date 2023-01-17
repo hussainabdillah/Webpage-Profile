@@ -77,16 +77,25 @@ body {
   display: none;
 }
 
-/* .header {
-  font-family: "Outfit", sans-serif;
-  position: absolute;
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
 }
 
-.navBar {
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  width: 1139px;
-  height: 45px;
-  left: 164px;
-  top: 56px;
-} */
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
