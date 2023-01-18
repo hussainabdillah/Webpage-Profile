@@ -16,7 +16,7 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  /* min-height: 2000px; */
+  min-height: 2000px;
 }
 
 /* NavBar */
@@ -136,6 +136,52 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
+/* About Section */
+.tentang {
+  padding: 6.5rem 7% 1.4rem;
+}
+
+.tentang h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f2e9e4;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  margin-bottom: 3rem;
+}
+
+.tentang .row {
+  display: flex;
+}
+
+.tentang .row .logoSurakarta {
+  flex: 1 1 8rem;
+}
+
+.tentang .row .logoSurakarta img {
+  /* 
+  width: 313px;
+  height: 443.94px;
+  left: 124px;
+  top: 1263px; */
+  /* width: 100%; */
+}
+
+.tentang .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.tentang .row .content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.tentang .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
 /* Media Queries */
 
 /* Laptop */
@@ -193,6 +239,24 @@ body {
 
   .navBar .navBarNav a:hover::after {
     transform: scaleX(0.2);
+  }
+
+  .tentang .row {
+    flex-wrap: wrap;
+  }
+
+  .tentang .row .logoSurakarta img {
+    height: 30rem;
+    object-fit: cover;
+    object-position: right;
+  }
+
+  .tentang .row .content {
+    padding: 0;
+  }
+
+  .tentang .row .content h3 {
+    font-size: 1.5rem;
   }
 }
 
