@@ -16,7 +16,7 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 3000px;
+  min-height: 4000px;
 }
 
 /* NavBar */
@@ -271,6 +271,51 @@ body {
   line-height: 1.6;
 }
 
+/* Wisata Section */
+.wisata {
+  padding: 6.5rem 7% 1.4rem;
+}
+
+.wisata h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f2e9e4;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.wisata p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.wisata .row3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.wisata .row3 .wisata-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.wisata .row3 .wisata-card img {
+  border-radius: 75%;
+  width: 80%;
+}
+
+.wisata .row3 .wisata-card .wisata-card-title {
+  font-size: 1rem;
+  margin: 1rem auto 0.5rem;
+}
 /* Media Queries */
 
 /* Laptop */
@@ -425,6 +470,14 @@ body {
     font-size: 1rem;
     line-height: 1.4;
   } */
+
+  .wisata p {
+    font-size: 1.5rem;
+  }
+
+  .wisata .row3 .wisata-card .wisata-card-title {
+    font-size: 1.5rem;
+  }
 }
 
 /* Mobile */
