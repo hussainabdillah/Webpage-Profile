@@ -220,6 +220,51 @@ body {
   line-height: 1.6;
 }
 
+/* Geografis Section */
+.geografis {
+  padding: 6.5rem 7% 1.4rem;
+}
+
+.geografis h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f2e9e4;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  margin-bottom: 3rem;
+}
+
+.geografis .row2 {
+  display: flex;
+  align-items: center;
+}
+
+.geografis .row2 .imageGeografis {
+  flex: 1 1 8rem;
+  margin-right: 1rem;
+}
+
+.geografis .row2 .imageGeografis img {
+  width: 100%;
+}
+
+.geografis .row2 .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+.geografis .row2 .content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.geografis .row2 .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
 /* Media Queries */
 
 /* Laptop */
