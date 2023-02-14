@@ -16,7 +16,7 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 4000px;
+  min-height: 5000px;
 }
 
 /* NavBar */
@@ -315,6 +315,70 @@ body {
 .wisata .row3 .wisata-card .wisata-card-title {
   font-size: 1rem;
   margin: 1rem auto 0.5rem;
+}
+
+/* Kontak Section */
+.kontak {
+  padding: 6.5rem 7% 1.4rem;
+}
+
+.kontak h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f2e9e4;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.kontak p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.kontak .row4 {
+  display: flex;
+  margin-top: rem;
+}
+
+.kontak .row4 form {
+  flex: 1 1 45rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.kontak .row4 form .input-form {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: var(--primary);
+  padding-left: 1rem;
+  border: 1px solid #f2e9e4;
+}
+
+.kontak .row4 form .input-form input {
+  width: 100%;
+  background: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #f2e9e4;
+}
+
+.kontak .row4 form .submit-button {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #f2e9e4;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  cursor: pointer;
 }
 /* Media Queries */
 
