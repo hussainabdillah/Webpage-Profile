@@ -384,6 +384,45 @@ body {
   cursor: pointer;
 }
 
+.kontak .row4 form .message {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.message .success {
+  margin-top: 1rem;
+  color: #05f140;
+  font-size: 1.1rem;
+  position: absolute;
+  transition: 0.3s;
+  animation: buttons 0.1s linear;
+  display: none;
+}
+.message .error {
+  margin-top: 1rem;
+  color: #da2c38;
+  font-size: 1rem;
+  position: absolute;
+  transition: 0.3s;
+  animation: buttons 0.1s linear;
+  display: none;
+}
+
+@keyframes buttons {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* Footer */
 
 footer {

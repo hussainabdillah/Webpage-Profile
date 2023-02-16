@@ -287,21 +287,29 @@
         <form action="">
           <div class="input-form">
             <i data-feather="user"></i>
-            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Name" id="name-input" />
           </div>
           <div class="input-form">
             <i data-feather="at-sign"></i>
-            <input type="text" placeholder="Email address" />
+            <input type="text" placeholder="Email address" id="email-input" />
           </div>
           <div class="input-form">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="Phone number" />
+            <input type="text" placeholder="Phone number" id="phone-input" />
           </div>
           <div class="input-form">
             <i data-feather="message-square"></i>
-            <input type="text" placeholder="Message" />
+            <input type="text" placeholder="Message" id="msg-input" />
           </div>
-          <button type="submit" class="submit-button">SUBMIT</button>
+          <button type="button" class="submit-button" onclick="message()">
+            SUBMIT
+          </button>
+          <div class="message">
+            <div id="success" class="success">Pesan berhasil dikirim</div>
+            <div id="error" class="error">
+              Harap mengisi form terlebih dahulu untuk mengirim!
+            </div>
+          </div>
         </form>
       </div>
     </section>
