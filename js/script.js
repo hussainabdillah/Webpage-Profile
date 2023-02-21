@@ -1,7 +1,7 @@
 // Toggle class active
 const navbarNav = document.querySelector(".navBarNav");
 
-// when hamburger is clicked
+// ketika hamburger menu ditekan
 document.querySelector("#hamburgerMenu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
@@ -48,5 +48,3 @@ function message() {
     success.style.display = "none";
   }, 3000);
 }
-
-// document.getElementsByClassName("submit-button").onclick = message();

@@ -139,7 +139,7 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
-/* Tentang Section */
+/* Tentang */
 .tentang {
   padding: 6.5rem 7% 1.4rem;
 }
@@ -184,7 +184,7 @@ body {
   line-height: 1.6;
 }
 
-/* Sejarah Section */
+/* Sejarah */
 .sejarah {
   padding: 6.5rem 7% 1.4rem;
 }
@@ -229,7 +229,7 @@ body {
   line-height: 1.6;
 }
 
-/* Geografis Section */
+/* Geografis */
 .geografis {
   padding: 6.5rem 7% 1.4rem;
 }
@@ -274,7 +274,7 @@ body {
   line-height: 1.6;
 }
 
-/* Wisata Section */
+/* Wisata */
 .wisata {
   padding: 6.5rem 7% 1.4rem;
 }
@@ -325,7 +325,7 @@ body {
   margin: 1rem auto 0.5rem;
 }
 
-/* Kontak Section */
+/* Kontak */
 .kontak {
   padding: 6.5rem 7% 1.4rem;
 }
@@ -585,7 +585,7 @@ footer .copyright {
   .navBar .navBarNav a:hover::after {
     transform: scaleX(0.2);
   }
-  /* Tentang Section */
+  /* Tentang */
   .tentang {
     padding: 2rem 1%;
   }
@@ -622,7 +622,7 @@ footer .copyright {
     margin: auto;
   }
 
-  /* Sejarah Section */
+  /* Sejarah */
 
   .sejarah {
     padding: 2rem 1%;
@@ -660,7 +660,7 @@ footer .copyright {
     margin: auto;
   }
 
-  /* Geografis Section */
+  /* Geografis */
 
   .geografis {
     padding: 2rem 1%;
@@ -698,7 +698,7 @@ footer .copyright {
     margin: auto;
   }
 
-  /* Wisata Section */
+  /* Wisata */
 
   .wisata p {
     font-size: 1.5rem;
@@ -708,7 +708,7 @@ footer .copyright {
     font-size: 1.5rem;
   }
 
-  /* Kontak Section */
+  /* Kontak */
   .kontak p {
     font-size: 1.5rem;
   }
@@ -740,7 +740,7 @@ footer .copyright {
     flex-wrap: wrap;
   }
 
-  /* Footer Section */
+  /* Footer */
   .icon-footer {
     width: 15px;
   }
